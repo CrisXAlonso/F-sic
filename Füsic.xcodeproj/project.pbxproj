@@ -14,6 +14,8 @@
 		278226011C79095B00CC0FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278225FF1C79095B00CC0FCC /* LaunchScreen.storyboard */; };
 		2782260C1C79095C00CC0FCC /* Fu_sicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2782260B1C79095C00CC0FCC /* Fu_sicTests.swift */; };
 		278226171C79095C00CC0FCC /* Fu_sicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278226161C79095C00CC0FCC /* Fu_sicUITests.swift */; };
+		278226261C790EFF00CC0FCC /* scImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 278226251C790EFF00CC0FCC /* scImg.png */; };
+		278226281C790F1B00CC0FCC /* itImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 278226271C790F1B00CC0FCC /* itImg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		278226121C79095C00CC0FCC /* FüsicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FüsicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		278226161C79095C00CC0FCC /* Fu_sicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fu_sicUITests.swift; sourceTree = "<group>"; };
 		278226181C79095C00CC0FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278226251C790EFF00CC0FCC /* scImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scImg.png; sourceTree = "<group>"; };
+		278226271C790F1B00CC0FCC /* itImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itImg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				278225FD1C79095B00CC0FCC /* Assets.xcassets */,
 				278225FF1C79095B00CC0FCC /* LaunchScreen.storyboard */,
 				278226021C79095B00CC0FCC /* Info.plist */,
+				278226241C790EE700CC0FCC /* Images */,
 			);
 			path = "Füsic";
 			sourceTree = "<group>";
@@ -123,6 +128,15 @@
 				278226181C79095C00CC0FCC /* Info.plist */,
 			);
 			path = "FüsicUITests";
+			sourceTree = "<group>";
+		};
+		278226241C790EE700CC0FCC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				278226251C790EFF00CC0FCC /* scImg.png */,
+				278226271C790F1B00CC0FCC /* itImg.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278226281C790F1B00CC0FCC /* itImg.png in Resources */,
 				278226011C79095B00CC0FCC /* LaunchScreen.storyboard in Resources */,
 				278225FE1C79095B00CC0FCC /* Assets.xcassets in Resources */,
 				278225FC1C79095B00CC0FCC /* Main.storyboard in Resources */,
+				278226261C790EFF00CC0FCC /* scImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
